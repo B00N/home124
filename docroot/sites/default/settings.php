@@ -729,6 +729,12 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+/** Trusted host configuration.
+ */
+$settings['trusted_host_patterns'] = array(
+  '\.localhost$',
+);
+
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -774,17 +780,8 @@ $settings['entity_update_backup'] = TRUE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'haus_dev',
-  'username' => 'root',
-  'password' => '',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '13306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$config_directories['sync'] = 'sites/default/files/config_I6FbHKLt6TMIXZyNAinCV7Ved_A-CTYYOi9QrFWfeqEEEGqy3NhBLooHSFgvzXQAPQJugSHOpA/sync';
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+}
+
+$config_directories['sync'] = '../config/sync';
