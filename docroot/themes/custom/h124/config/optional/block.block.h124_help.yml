@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - h124
+_core:
+  default_config_hash: egDb2gNZXiqVJpJW69em-7EFYJKvcTRE5DrK2g_TDRA
+id: h124_help
+theme: h124
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
