@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: 3GcxGgqA4m-Lnr3Upq5T-OJmXbNv25Wl7AkJFxZQMXE
 id: editor
-label: Herausgeber
+label: Redakteur
 weight: -7
 is_admin: false
 permissions:
@@ -65,7 +65,9 @@ permissions:
   - 'use editorial transition unpublish'
   - 'use editorial transition unpublished_draft'
   - 'use editorial transition unpublished_published'
+  - 'use text format basic_html'
   - 'use text format full_html'
+  - 'use text format restricted_html'
   - 'view all revisions'
   - 'view any unpublished content'
   - 'view article revisions'

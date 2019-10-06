@@ -6,7 +6,14 @@ dependencies:
     - field.storage.paragraph.field_text
     - paragraphs.paragraphs_type.to_do
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    basic_html: basic_html
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
 id: paragraph.to_do.field_text
 field_name: field_text
 entity_type: paragraph

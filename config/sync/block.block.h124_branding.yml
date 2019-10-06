@@ -11,7 +11,7 @@ _core:
 id: h124_branding
 theme: h124
 region: header_first
-weight: -7
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:

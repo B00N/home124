@@ -6,7 +6,14 @@ dependencies:
     - field.storage.paragraph.field_text
     - paragraphs.paragraphs_type.text
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    basic_html: basic_html
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
 _core:
   default_config_hash: bLdK9OnY0VfuZANY08x_6H-3KFroyv2vKW1e4bR6WYo
 id: paragraph.text.field_text

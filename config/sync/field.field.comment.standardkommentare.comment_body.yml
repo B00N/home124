@@ -6,12 +6,19 @@ dependencies:
     - comment.type.standardkommentare
     - field.storage.comment.comment_body
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    restricted_html: restricted_html
+    basic_html: '0'
+    full_html: '0'
+    plain_text: '0'
 id: comment.standardkommentare.comment_body
 field_name: comment_body
 entity_type: comment
 bundle: standardkommentare
-label: Comment
+label: Kommentar
 description: ''
 required: true
 translatable: true
