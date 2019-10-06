@@ -1,0 +1,22 @@
+uuid: fee57246-8d40-49d7-af45-a74c618158a2
+langcode: de
+status: true
+dependencies:
+  module:
+    - datetime
+    - media
+_core:
+  default_config_hash: cSALAeEHJz59cseb7ACv7jodsgkle6qJPoaVqNIbBls
+id: media.field_expires
+field_name: field_expires
+entity_type: media
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

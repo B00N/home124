@@ -1,0 +1,11 @@
+id: medium
+uuid: 0a13efcf-4713-4213-a163-6c954377325d
+label: Tablet
+weight: 0
+status: 0
+orientation: portrait
+dimensions:
+  width: 800
+  height: 1280
+  dppx: 1.325
+langcode: de

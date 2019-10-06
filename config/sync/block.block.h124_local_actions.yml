@@ -1,0 +1,20 @@
+uuid: 84c0edb7-4e4f-4543-859e-e944818f110a
+langcode: de
+status: true
+dependencies:
+  theme:
+    - h124
+_core:
+  default_config_hash: 1E-LWbxLi3bGIbmNjNBtKfsw5RzQX8B7R2YIVngY98Y
+id: h124_local_actions
+theme: h124
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

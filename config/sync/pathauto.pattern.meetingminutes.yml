@@ -1,0 +1,22 @@
+uuid: 7aedaae3-6fd0-4deb-92f0-36b7f3298e2b
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+id: meetingminutes
+label: Protokoll
+type: 'canonical_entities:node'
+pattern: 'protokoll/[node:nid]'
+selection_criteria:
+  2d020c57-a053-498d-ba06-ec8960492efc:
+    id: node_type
+    bundles:
+      meetingminutes: meetingminutes
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 2d020c57-a053-498d-ba06-ec8960492efc
+selection_logic: and
+weight: -5
+relationships: {  }

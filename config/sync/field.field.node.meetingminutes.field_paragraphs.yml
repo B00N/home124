@@ -1,0 +1,73 @@
+uuid: 0e4d1746-50a7-4c49-a025-928b79eafb55
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.meetingminutes
+    - paragraphs.paragraphs_type.files
+    - paragraphs.paragraphs_type.gallery
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.to_do
+    - paragraphs.paragraphs_type.video
+  module:
+    - entity_reference_revisions
+id: node.meetingminutes.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: meetingminutes
+label: Seitenabschnitte
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+      image: image
+      gallery: gallery
+      files: files
+      video: video
+      link: link
+      to_do: to_do
+    target_bundles_drag_drop:
+      text:
+        enabled: true
+        weight: -23
+      image:
+        enabled: true
+        weight: -22
+      gallery:
+        enabled: true
+        weight: -21
+      files:
+        enabled: true
+        weight: -20
+      video:
+        enabled: true
+        weight: -19
+      link:
+        enabled: true
+        weight: -18
+      to_do:
+        enabled: true
+        weight: -17
+      quote:
+        weight: -16
+        enabled: false
+      instagram:
+        weight: -15
+        enabled: false
+      pinterest:
+        weight: -14
+        enabled: false
+      twitter:
+        weight: -13
+        enabled: false
+field_type: entity_reference_revisions

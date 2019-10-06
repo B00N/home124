@@ -1,0 +1,11 @@
+uuid: cb5fd426-007d-4308-b793-7744c53846af
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iTVydmp9NP-iktBEkOtP0GjnnRwFoomqmrrft-uhZYs
+id: image
+label: Bild
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

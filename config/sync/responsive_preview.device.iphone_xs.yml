@@ -1,0 +1,11 @@
+id: iphone_xs
+uuid: 8a1559bd-0cb8-4414-8525-a183ba43b08a
+label: 'iPhone XS'
+weight: -9
+status: 1
+orientation: portrait
+dimensions:
+  width: 1125
+  height: 2436
+  dppx: !!float 3
+langcode: de

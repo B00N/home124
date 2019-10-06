@@ -1,0 +1,25 @@
+uuid: 8b0bad9a-bb2b-4c5f-b889-fb3d836b6e90
+langcode: de
+status: true
+dependencies:
+  module:
+    - crop
+    - media_expire
+third_party_settings:
+  crop:
+    image_field: field_image
+  media_expire:
+    expire_field: field_expires
+    enable_expiring: 1
+    fallback_media: null
+_core:
+  default_config_hash: 7_6e4fk_xz7R2E3GXhwh7ASVCzKvjisFrGyatSpqEi0
+id: image
+label: Bild
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_image
+field_map: {  }

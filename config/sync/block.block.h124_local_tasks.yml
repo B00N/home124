@@ -1,0 +1,22 @@
+uuid: 2d98303c-61c0-4e25-ad56-fbed167d425c
+langcode: de
+status: true
+dependencies:
+  theme:
+    - h124
+_core:
+  default_config_hash: lbS8ADXnR25M5MNHEWuZp9ueBo1Q6o0zyzr-hCCV_08
+id: h124_local_tasks
+theme: h124
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

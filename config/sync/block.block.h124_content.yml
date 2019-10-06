@@ -1,0 +1,22 @@
+uuid: b1f243d3-de50-43c7-91c3-8bceb375c6f1
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - h124
+_core:
+  default_config_hash: 6Avu6F3NKCdLE0FwkRmrqPLeF2JFnllCRr9J0AHLfZU
+id: h124_content
+theme: h124
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2c0ec1d0-995a-4040-bb49-45255e7358c5
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.to_do.field_text
+    - paragraphs.paragraphs_type.to_do
+  module:
+    - text
+id: paragraph.to_do.default
+targetEntityType: paragraph
+bundle: to_do
+mode: default
+content:
+  field_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

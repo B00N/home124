@@ -1,0 +1,22 @@
+uuid: 7609588c-c053-4030-a93f-c9ce69a6c5fd
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - h124
+_core:
+  default_config_hash: ojLWO9B_bMFHw0FIR2Qzyy53XAn04RGkbmSm9qp2P3k
+id: h124_messages
+theme: h124
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,99 @@
+uuid: ee2eccaa-96da-40c6-a59a-da1a170fa86e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.meetingminutes.field_attendees
+    - field.field.node.meetingminutes.field_comments
+    - field.field.node.meetingminutes.field_date
+    - field.field.node.meetingminutes.field_location
+    - field.field.node.meetingminutes.field_paragraphs
+    - field.field.node.meetingminutes.field_teaser_media
+    - field.field.node.meetingminutes.field_teaser_text
+    - node.type.meetingminutes
+  module:
+    - comment
+    - entity_reference_revisions
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_meta:
+      children:
+        - field_date
+        - field_attendees
+        - field_location
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: meta
+      label: Meta
+      region: content
+id: node.meetingminutes.default
+targetEntityType: node
+bundle: meetingminutes
+mode: default
+content:
+  field_attendees:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_comments:
+    weight: 5
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_date:
+    weight: 2
+    label: inline
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_location:
+    weight: 4
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraphs:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_teaser_media: true
+  field_teaser_text: true
+  langcode: true
+  shariff_field: true

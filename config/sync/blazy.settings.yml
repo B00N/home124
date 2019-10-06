@@ -1,0 +1,19 @@
+admin_css: true
+responsive_image: true
+one_pixel: true
+blazy:
+  loadInvisible: false
+  offset: 100
+  saveViewportOffsetDelay: 50
+  validateDelay: null
+unbreakpoints: false
+placeholder: ''
+io:
+  enabled: false
+  unblazy: false
+  rootMargin: 0px
+  threshold: '0'
+  disconnect: false
+_core:
+  default_config_hash: ilRi9Q_4ghUH8CsD28_dn3Bypnh-3d6gs8pXQyH5PT8
+langcode: de

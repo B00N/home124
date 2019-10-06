@@ -1,0 +1,8 @@
+uuid: e392ab7d-c2e8-4f79-bf30-1795147393d5
+langcode: de
+status: true
+dependencies: {  }
+id: standardkommentare
+label: Standardkommentare
+target_entity_type_id: node
+description: ''

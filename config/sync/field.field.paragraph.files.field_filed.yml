@@ -1,0 +1,28 @@
+uuid: bed55b38-c219-4d35-91f5-bea1b55cb463
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_filed
+    - media.type.document
+    - paragraphs.paragraphs_type.files
+id: paragraph.files.field_filed
+field_name: field_filed
+entity_type: paragraph
+bundle: files
+label: Datei
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

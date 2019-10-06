@@ -1,0 +1,28 @@
+uuid: 74c1b449-ded0-4d5c-8388-7c33c7007260
+langcode: de
+status: true
+dependencies:
+  config:
+    - comment.type.standardkommentare
+    - field.field.comment.standardkommentare.comment_body
+  module:
+    - text
+id: comment.standardkommentare.default
+targetEntityType: comment
+bundle: standardkommentare
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

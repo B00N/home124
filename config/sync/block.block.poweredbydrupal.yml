@@ -1,0 +1,22 @@
+uuid: 8f0ea46e-47d4-4fcf-bb72-c732064133d5
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - h124
+_core:
+  default_config_hash: CUvenIB2-_EmvqxQm74rdGB_9mAEyD6LhH-I1Tu3gNQ
+id: poweredbydrupal
+theme: h124
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

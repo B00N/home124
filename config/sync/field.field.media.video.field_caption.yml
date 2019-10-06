@@ -1,0 +1,23 @@
+uuid: 14d2793f-d186-485d-867e-ad570453f68a
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_caption
+    - media.type.video
+  module:
+    - text
+_core:
+  default_config_hash: CCCUnv2_kJN8W4ErAPzWnwPbxr4qCh_13qAe3HXqJP8
+id: media.video.field_caption
+field_name: field_caption
+entity_type: media
+bundle: video
+label: Beschriftung
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

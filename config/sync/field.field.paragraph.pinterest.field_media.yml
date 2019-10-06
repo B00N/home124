@@ -1,0 +1,30 @@
+uuid: 45f64109-9c33-4258-a15e-cfdf066ea975
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.pinterest
+    - paragraphs.paragraphs_type.pinterest
+_core:
+  default_config_hash: 1zwRiQYZv9JQcEMrZV5lOYnJdUP7FgtLuu_7skr0cdQ
+id: paragraph.pinterest.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: pinterest
+label: Medien
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      pinterest: pinterest
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

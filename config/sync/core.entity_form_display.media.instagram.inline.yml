@@ -1,0 +1,37 @@
+uuid: 34406991-3d8d-462d-bb7b-6969b832cf88
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.inline
+    - field.field.media.instagram.field_author
+    - field.field.media.instagram.field_content
+    - field.field.media.instagram.field_url
+    - media.type.instagram
+  module:
+    - link
+_core:
+  default_config_hash: 8sPtOi_k1iHAMogEw8qU7KR8c1bLmMDtie-3r0hduSc
+id: media.instagram.inline
+targetEntityType: media
+bundle: instagram
+mode: inline
+content:
+  field_url:
+    type: link_default
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_author: true
+  field_content: true
+  langcode: true
+  moderation_state: true
+  name: true
+  path: true
+  status: true
+  uid: true

@@ -1,0 +1,10 @@
+uuid: a7328965-7a7c-4373-b65c-6ebc8dc95fcc
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qhpLySwlKCg-ae5xVvlayYs8TbQ_teJ-BCX2HcS9ulI
+name: Kanal
+vid: channel
+description: ''
+weight: 0

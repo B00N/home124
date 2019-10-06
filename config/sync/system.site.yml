@@ -1,0 +1,15 @@
+name: H124
+mail: frank@meyerer.de
+slogan: ''
+page:
+  403: /node/3
+  404: /node/4
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: IqFDJOUXgoqYSm39bzsb0BVMDSkw3b4-KD4YSUgMw7U
+uuid: 18d80b8c-e01f-40ac-8876-6b748d9971e8
+mail_notification: ''

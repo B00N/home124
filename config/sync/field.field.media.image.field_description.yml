@@ -1,0 +1,23 @@
+uuid: b13f14a5-b97d-445e-9459-0b0ab6f9896b
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_description
+    - media.type.image
+  module:
+    - text
+_core:
+  default_config_hash: D1akubzRmjgQAQNldEad3WGjQBUqljZsyL8DF45fLmI
+id: media.image.field_description
+field_name: field_description
+entity_type: media
+bundle: image
+label: Beschreibung
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

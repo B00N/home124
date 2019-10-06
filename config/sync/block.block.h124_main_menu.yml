@@ -1,0 +1,27 @@
+uuid: 3ce54bb4-a473-470b-9a98-4c9a29d41e0c
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - h124
+_core:
+  default_config_hash: 61PHFf9OISolu55DIQWPOgkBnQI2BkZUmgcFzMyHaA8
+id: h124_main_menu
+theme: h124
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

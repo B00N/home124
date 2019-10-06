@@ -1,0 +1,25 @@
+uuid: f6c849c7-a831-4e11-9b85-ceb5c6c19b9f
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.to_do.field_text
+    - paragraphs.paragraphs_type.to_do
+  module:
+    - text
+id: paragraph.to_do.default
+targetEntityType: paragraph
+bundle: to_do
+mode: default
+content:
+  field_text:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

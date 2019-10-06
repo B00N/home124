@@ -1,0 +1,14 @@
+uuid: 6229c212-ca66-4273-8ab5-7c80a433debf
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.seo
+  module:
+    - user
+id: user_add_role_action.seo
+label: 'Add the Seo role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: seo

@@ -1,0 +1,18 @@
+uuid: 50b85a89-0547-4a72-a04b-b2d2991bae68
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YNwZhabAcFeIPfZsXVuj6z69TPmgR4FXmT9Ue9x2gXg
+id: anonymous
+label: Gast
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'opt-in or out of tracking'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

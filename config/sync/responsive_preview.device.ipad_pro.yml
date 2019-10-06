@@ -1,0 +1,11 @@
+id: ipad_pro
+uuid: 646f9914-14e3-4627-b53c-ee8758114819
+label: 'iPad Pro'
+weight: -7
+status: 1
+orientation: portrait
+dimensions:
+  width: 2048
+  height: 2732
+  dppx: !!float 2
+langcode: de

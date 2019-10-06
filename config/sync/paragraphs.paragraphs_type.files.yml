@@ -1,0 +1,9 @@
+uuid: 91887be4-4a94-46b2-bc79-05ad8b6ac3da
+langcode: de
+status: true
+dependencies: {  }
+id: files
+label: Dateien
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

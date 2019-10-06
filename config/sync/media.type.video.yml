@@ -1,0 +1,31 @@
+uuid: 04812e2d-7723-4c93-ab22-43f71f37e6a9
+langcode: de
+status: true
+dependencies:
+  module:
+    - crop
+    - media_expire
+third_party_settings:
+  crop:
+    image_field: null
+  media_expire:
+    enable_expiring: null
+    expire_field: null
+    fallback_media: null
+_core:
+  default_config_hash: 0I-x9TzrGuzfCo9SNFLNFrQkj7PzZb-AxpbCXRmm8QU
+id: video
+label: Video
+description: ''
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers:
+    - YouTube
+    - Vimeo
+  source_field: field_media_video_embed_field
+field_map:
+  title: name
+  author_name: field_author

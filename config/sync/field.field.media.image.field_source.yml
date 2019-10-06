@@ -1,0 +1,21 @@
+uuid: 1bf5f04e-610a-454d-b8f7-69a29b556e75
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_source
+    - media.type.image
+_core:
+  default_config_hash: yvhZCI7KcSkQHChicBLR1oOEI4MLCek96aHdObhXmLA
+id: media.image.field_source
+field_name: field_source
+entity_type: media
+bundle: image
+label: Quelle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

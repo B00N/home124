@@ -1,0 +1,30 @@
+uuid: 91015645-704b-4693-b455-bd6b44423142
+langcode: de
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+name: Protokoll
+type: meetingminutes
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

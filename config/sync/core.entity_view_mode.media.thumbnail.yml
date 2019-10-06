@@ -1,0 +1,12 @@
+uuid: f30e329f-66d6-4484-a8e6-498fac6a3d8d
+langcode: de
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 6lKEwketpQdX89N_7xP5lPFRpc9TiP2bUE0XK1deEkA
+id: media.thumbnail
+label: Miniaturbild
+targetEntityType: media
+cache: true

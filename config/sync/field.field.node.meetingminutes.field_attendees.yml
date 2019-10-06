@@ -1,0 +1,19 @@
+uuid: e31a85d4-3293-4246-85a1-98925f28137d
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attendees
+    - node.type.meetingminutes
+id: node.meetingminutes.field_attendees
+field_name: field_attendees
+entity_type: node
+bundle: meetingminutes
+label: Teilnehmer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

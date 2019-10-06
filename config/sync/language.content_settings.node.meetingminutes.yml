@@ -1,0 +1,11 @@
+uuid: 020042b3-e905-4600-bdf5-2004784daca0
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.meetingminutes
+id: node.meetingminutes
+target_entity_type_id: node
+target_bundle: meetingminutes
+default_langcode: site_default
+language_alterable: false

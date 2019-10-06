@@ -1,0 +1,21 @@
+uuid: 81e091a6-5316-4f04-8f54-d460e54347f6
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_content
+    - media.type.instagram
+_core:
+  default_config_hash: uYuLeID0O6Nquh4fmlXDKza1tmHrZD0erqQjJikvSb8
+id: media.instagram.field_content
+field_name: field_content
+entity_type: media
+bundle: instagram
+label: Inhalt
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

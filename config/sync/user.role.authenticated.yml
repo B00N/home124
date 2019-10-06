@@ -1,0 +1,24 @@
+uuid: 33dff8d4-8d01-4847-831f-3f09892b8c6b
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3O0KivFBGa2KZ87o1MPpkyh5FtmbVP05nQQXq-eSNZk
+id: authenticated
+label: 'Angemeldeter Benutzer'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'cancel account'
+  - 'change own username'
+  - 'edit own comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

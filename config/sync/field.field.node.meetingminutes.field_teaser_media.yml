@@ -1,0 +1,28 @@
+uuid: 8addd311-61d1-4d00-b931-55b6a70cacc8
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_media
+    - media.type.image
+    - node.type.meetingminutes
+id: node.meetingminutes.field_teaser_media
+field_name: field_teaser_media
+entity_type: node
+bundle: meetingminutes
+label: 'Teaser Media'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
