@@ -67,10 +67,15 @@ ul.menu li.menu-item--expanded > a:hover:before {
 /*Main navigation*/
 .header-container ul.menu {
   margin: 0;
-  padding: 15px 0 5px 0;
+  padding: 0;
   list-style: none;
   text-align: right;
 }
+
+.header-inside-second ul.menu {
+  text-align: left;
+}
+
 .header-container ul.menu li {
   background: none;
   padding: 0;
@@ -91,6 +96,24 @@ ul.menu li.menu-item--expanded > a:hover:before {
   border-bottom: 2px solid transparent;
   color: #3f3f3f;
 }
+
+.header-inside-second ul.menu li a {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 17px 5px;
+  text-transform: uppercase;
+  margin: 0 5px;
+  border-bottom: 2px solid transparent;
+  color: #3f3f3f;
+}
+
+.header-inside-third ul.menu li a {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 10px;
+  margin: 0;
+}
+
 .header-container ul.menu li a:hover,
 .header-container nav>ul.menu>li.menu-item--active-trail>a:hover {
   background-color: transparent;

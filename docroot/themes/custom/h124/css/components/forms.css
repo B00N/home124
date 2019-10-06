@@ -21,7 +21,7 @@ select {
   background: #e5e5e5;
   color: #454545;
   font-size: 12px;
-  padding: 14px 15px;
+  padding: 8px 8px;
   outline: none;
   border: none;
   -webkit-appearance: none;
@@ -38,6 +38,16 @@ table input.form-text {
 select.form-select,
 select {
   margin: 10px 0;
+}
+
+.form-composite > .fieldset-wrapper > .description, .form-item .description {
+  font-size: 0.85em;
+  padding: 5px 0 0 5px;
+  color: gray;
+}
+
+input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, textarea, select.form-select, select {
+  font-size: 18px;
 }
 
 /*webkit specific rules for select list*/

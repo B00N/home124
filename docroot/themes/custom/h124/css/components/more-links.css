@@ -72,6 +72,12 @@
 .two-sidebars .view-latest-items .more-link a {
   margin-left: 0;
 }
+
+li.comment-forbidden a {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
 @media (min-width:1200px) {
   .view-latest-items .more-link a {
     margin-left: 145px;

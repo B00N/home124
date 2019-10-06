@@ -3,12 +3,12 @@
  * Styles for Startup Growth Lite's breadcrumbs.
  */
 .breadcrumb {
-  font-size: 11px;
-  padding: 17px 0;
+  font-size: 14px;
+  padding: 10px 0;
   margin: 0;
   background-color: transparent;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: normal;
+  text-transform: none;
   line-height: 1.46;
   position: relative;
   -webkit-border-radius: 0;
@@ -19,7 +19,7 @@
   border-bottom: 1px solid #cfd0d2;
 }
 .breadcrumb ol {
-  padding-left: 75px;
+  padding-left: 50px;
 }
 .breadcrumb li,
 .breadcrumb .breadcrumb-separator {
@@ -41,7 +41,7 @@
 }
 .breadcrumb li:nth-child(1) a {
   width: 55px;
-  height: 50px;
+  height: 46px;
   position: absolute;
   bottom: 0;
   left: 15px;
