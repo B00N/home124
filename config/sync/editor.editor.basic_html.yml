@@ -19,6 +19,9 @@ settings:
           items:
             - Bold
             - Italic
+            - Strike
+            - Superscript
+            - Subscript
         -
           name: Linking
           items:
@@ -29,6 +32,10 @@ settings:
           items:
             - BulletedList
             - NumberedList
+            - Indent
+            - Outdent
+            - Table
+            - SpecialChar
         -
           name: Media
           items:
@@ -38,6 +45,7 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:

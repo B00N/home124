@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.meetingminutes.field_attendees
+    - field.field.node.meetingminutes.field_comments
     - field.field.node.meetingminutes.field_date
     - field.field.node.meetingminutes.field_location
     - field.field.node.meetingminutes.field_paragraphs
@@ -12,36 +13,68 @@ dependencies:
     - field.field.node.meetingminutes.field_teaser_text
     - node.type.meetingminutes
   module:
+    - field_group
     - user
+third_party_settings:
+  field_group:
+    group_meta:
+      children:
+        - field_date
+        - field_attendees
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: meta
+      label: Meta
+      region: content
 id: node.meetingminutes.teaser
 targetEntityType: node
 bundle: meetingminutes
 mode: teaser
 content:
-  field_teaser_media:
-    type: entity_reference_label
+  field_attendees:
+    type: string
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_date:
+    type: timestamp
     weight: 1
     region: content
-    label: hidden
+    label: inline
     settings:
-      link: true
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
     third_party_settings: {  }
   field_teaser_text:
     type: basic_string
-    weight: 0
+    weight: 3
     region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
   links:
-    weight: 2
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_attendees: true
-  field_date: true
+  field_comments: true
   field_location: true
   field_paragraphs: true
+  field_teaser_media: true
   langcode: true
   shariff_field: true

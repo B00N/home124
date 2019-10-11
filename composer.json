@@ -33,15 +33,29 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "bower-asset/photoswipe",
+                "version": "4.1.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.1.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
         "php": ">=5.6",
+        "bower-asset/photoswipe": "^4.1",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/allowed_formats": "^1.1",
         "drupal/console": "^1.2",
+        "drupal/photoswipe": "^2.9",
         "drupal/startupgrowth_lite": "^1.0",
         "drush/drush": "~8.0|^9.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -85,7 +99,8 @@
             "docroot/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
-                "type:npm-asset"
+                "type:npm-asset",
+                "bower-asset/photoswipe"
             ],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
