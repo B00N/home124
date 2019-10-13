@@ -41,6 +41,7 @@ global-styling:
       css/components/comments.css: {}
       css/components/forms.css: {}
       css/components/field-taxonomy-term.css: {}
+      css/components/file.css: {}
       css/components/icons-list.css: {}
       css/components/item-list.css: {}
       css/components/image-overlay.css: {}
