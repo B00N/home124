@@ -23,7 +23,7 @@ third_party_settings:
     unpublish_revision: false
 name: Protokoll
 type: meetingminutes
-description: ''
+description: '<em>Protokoll</em> nutzen wir um Treffen mit Bauleitung, Architekt, Handwerker oder sonstigen Beteiligten zu dokumentieren.'
 help: ''
 new_revision: true
 preview_mode: 0

@@ -1,0 +1,29 @@
+uuid: 08c854fd-5b6b-4349-8f3f-e20dd1e4f785
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.meetingminutes
+    - taxonomy.vocabulary.tags
+id: node.meetingminutes.field_tags
+field_name: field_tags
+entity_type: node
+bundle: meetingminutes
+label: Tags
+description: 'Nutze die Tags um Themen zu gruppieren und die Inhalte schneller auffindbar und zugänglicher zu machen.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,17 @@
+uuid: c94f376a-ee29-437c-9a92-67550e336c2d
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1awGRcgCeU3QfsW31J6VLStPlck16RpYNI4uIc0O8m4
+name: gallery_thumb
+label: 'Galerie (Thumb)'
+effects:
+  7e8bbfd6-5670-4d42-ae14-f060657bfc00:
+    uuid: 7e8bbfd6-5670-4d42-ae14-f060657bfc00
+    id: image_scale
+    weight: 2
+    data:
+      width: 300
+      height: 300
+      upscale: false

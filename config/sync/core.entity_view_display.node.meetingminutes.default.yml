@@ -3,11 +3,13 @@ langcode: de
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.standardkommentare.default
     - field.field.node.meetingminutes.field_attendees
     - field.field.node.meetingminutes.field_comments
     - field.field.node.meetingminutes.field_date
     - field.field.node.meetingminutes.field_location
     - field.field.node.meetingminutes.field_paragraphs
+    - field.field.node.meetingminutes.field_tags
     - field.field.node.meetingminutes.field_teaser_media
     - field.field.node.meetingminutes.field_teaser_text
     - node.type.meetingminutes
@@ -52,7 +54,7 @@ content:
     type: string
     region: content
   field_comments:
-    weight: 5
+    weight: 4
     label: above
     settings:
       view_mode: default
@@ -87,8 +89,16 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
-  links:
+  field_tags:
     weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
