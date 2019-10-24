@@ -194,18 +194,6 @@
   margin-bottom: 30px;
 }
 
-.paragraph--type--to-do {
-  background-color: #d6f4a861;
-  padding: 10px 15px;
-}
-
-.paragraph--type--to-do .field__label {
-  font-family: 'Roboto Slab', Trebuchet MS, Sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  padding-bottom: 10px;
-}
-
 .field--name-field-media-file .file a {
   background-color: transparent;
   text-decoration: underline;

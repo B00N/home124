@@ -49,6 +49,7 @@ global-styling:
       css/components/node-testimonial.css: {}
       css/components/node-links.css: {}
       css/components/node-images.css: {}
+      css/components/paragraphs.css: {}
       css/components/search.css: {}
       css/components/site-branding.css: {}
       css/components/tables.css: {}

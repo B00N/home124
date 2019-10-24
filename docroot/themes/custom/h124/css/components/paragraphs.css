@@ -1,0 +1,42 @@
+/**
+ * @file
+ * Visual styles for H124 paragraphs.
+ */
+
+
+
+/* Todo Paragraphs */
+
+.paragraph--type--to-do {
+  padding: 5px 0;
+}
+
+.paragraph--type--to-do .field__label {
+  font-family: 'Roboto Slab', Trebuchet MS, Sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.todo-wrapper {
+  display: grid;
+  grid-template-columns: 20px 100%;
+  grid-gap: 10px;
+}
+
+.todo-wrapper .field--name-field-done {
+  grid-column: 1
+}
+
+.todo-wrapper .field--name-field-brief-description {
+  grid-column: 2;
+  font-size: 18px;
+}
+
+.paragraph--type--to-do .field--name-field-text {
+  padding: 5px 0 0 30px;
+}
+
+div.paragraph.paragraph--type--to-do.paragraph--view-mode--default {
+  margin-bottom: 0;
+}
