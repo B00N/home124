@@ -40,3 +40,15 @@
 div.paragraph.paragraph--type--to-do.paragraph--view-mode--default {
   margin-bottom: 0;
 }
+
+.view-display-id-todos_page .views-field-parent-id {
+  padding-left: 30px;
+}
+
+.view-display-id-todos_page .views-row {
+  margin-bottom: 15px;
+}
+
+.view-display-id-todos_page select.form-select, select {
+  min-width: 100px;
+}

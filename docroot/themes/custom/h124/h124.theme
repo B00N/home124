@@ -7,6 +7,10 @@
 use Drupal\Core\Theme\ThemeSettings;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Template\Attribute;
+use Drupal\node\Entity\Node;
+use Drupal\Core\Url;
+use Drupal\Core\Link;
+
 
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
@@ -548,5 +552,17 @@ function h124_theme_suggestions_image_formatter_alter(array &$suggestions, array
   if (isset($entity) && isset($field_name)) {
     $suggestions[] = 'image_formatter__' . $entity->getEntityTypeId() . '__' . $field_name;
     $suggestions[] = 'image_formatter__' . $entity->getEntityTypeId() . '__' . $entity->bundle() . '__' . $field_name;
+  }
+}
+
+function h124_preprocess_views_view_field(&$variables) {
+  // Try to find the parent_id to get a node link
+  $variables['parent_node_link'] = ""; // Add a new variable to Twig file.
+  if($variables['field']->field == 'parent_id') {
+    $v = $variables["view"]->field["parent_id"]->original_value->__toString();
+    $node = \Drupal\node\Entity\Node::load($v);
+    $link = Link::createFromRoute($node->getTitle(), 'entity.node.canonical', ['node' => $v]);
+    // Add new variable with link
+    $variables['parent_node_link'] = $link;
   }
 }
