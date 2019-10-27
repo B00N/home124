@@ -7,6 +7,7 @@ docroot/libraries
 docroot/modules/contrib
 docroot/themes/contrib
 docroot/profiles/contrib
+material
 
 # Ignore Drupal's file directory
 docroot/sites/default/files
