@@ -67,12 +67,12 @@ pre:hover {
   transition: all ease-in-out 2s;
 }
 blockquote {
-  font-size: 24px;
+  font-size: 16px;
   font-style: italic;
-  padding: 0 0 0 150px;
+  padding: 0 0 0 70px;
   border-left: none;
   position: relative;
-  margin: 40px 0 50px;
+  margin: 10px 0 10px;
 }
 blockquote p {
   font-weight: 400;
@@ -87,10 +87,10 @@ blockquote:after {
   position: absolute;
   font-family: 'PT Serif', Georgia, Times, Times New Roman, Serif;
   content: "“";
-  left: 45px;
+  left: 0;
   top: 0;
   font-style: normal;
-  font-size: 160px;
+  font-size: 120px;
   line-height: 1;
 }
 .footer-area blockquote:after {
