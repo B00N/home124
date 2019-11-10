@@ -1,0 +1,36 @@
+uuid: 61b488da-eb01-42eb-81dd-c7d1559ea0b0
+langcode: de
+status: true
+dependencies:
+  module:
+    - toc_js
+  theme:
+    - h124
+id: toc.jsblock
+theme: h124
+region: sidebar_second
+weight: -7
+provider: null
+plugin: toc_js_block
+settings:
+  id: toc_js_block
+  label: Toc.js-Block
+  provider: toc_js
+  label_display: '0'
+  title: Quicklinks
+  selectors: 'h2, h3, h4'
+  selectors_minimum: '0'
+  container: .node
+  prefix: toc
+  list_type: ul
+  back_to_top: 0
+  back_to_top_label: 'Zurück nach oben'
+  smooth_scrolling: 1
+  scroll_to_offset: '100'
+  highlight_on_scroll: 1
+  highlight_offset: '100'
+  sticky: 0
+  sticky_offset: '0'
+  sticky_stop: ''
+  sticky_stop_padding: '0'
+visibility: {  }

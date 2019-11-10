@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92496a269729bf56f57eb5a44191ec54",
+    "content-hash": "bb1d389dc41b099428c6d26d3cd8b183",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6305,6 +6305,53 @@
             "homepage": "https://www.drupal.org/project/thunder_admin",
             "support": {
                 "source": "https://git.drupalcode.org/project/thunder_admin"
+            }
+        },
+        {
+            "name": "drupal/toc_js",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/toc_js.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/toc_js-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "45b197369866175b743e2aca8213650b4a1b287b"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1545035880",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "flocondetoile",
+                    "homepage": "https://www.drupal.org/user/2006064"
+                }
+            ],
+            "description": "Build a hierarchical table of contents from header tags present on a node with the toc.js library.",
+            "homepage": "https://www.drupal.org/project/toc_js",
+            "support": {
+                "source": "https://git.drupalcode.org/project/toc_js"
             }
         },
         {

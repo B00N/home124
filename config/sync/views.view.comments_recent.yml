@@ -297,7 +297,7 @@ display:
           plugin_id: field
           entity_type: comment
           entity_field: cid
-      title: 'Neue Kommentare'
+      title: 'Recent comments'
       empty:
         area_text_custom:
           id: area_text_custom

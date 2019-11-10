@@ -86,6 +86,8 @@ module:
   thunder_media: 0
   thunder_paragraphs: 0
   thunder_taxonomy: 0
+  toc_js: 0
+  toc_js_per_node: 0
   token: 0
   toolbar: 0
   tour: 0

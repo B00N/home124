@@ -11,7 +11,7 @@ dependencies:
 id: views_block__comments_recent_block_1
 theme: h124
 region: sidebar_second
-weight: 0
+weight: -6
 provider: null
 plugin: 'views_block:comments_recent-block_1'
 settings:
