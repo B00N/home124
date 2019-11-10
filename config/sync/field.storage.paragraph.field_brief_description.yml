@@ -1,0 +1,21 @@
+uuid: 55ca68c2-3c59-4d0a-9524-2b9b65b0077f
+langcode: de
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_brief_description
+field_name: field_brief_description
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

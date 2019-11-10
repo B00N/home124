@@ -1,4 +1,4 @@
-uuid: 47459a03-d507-4c35-8b55-d31406d024a1
+uuid: 0a32f295-3f47-4f77-9c8b-50b647e1cfb7
 langcode: de
 status: true
 dependencies:
@@ -6,18 +6,19 @@ dependencies:
     - field.field.user.user.user_picture
   module:
     - user
-_core:
-  default_config_hash: _TwacHt77keiORj6RggouS6QZjPShnokUNuzOL2k5xo
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
 content:
-  member_for:
+  account:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   langcode: true
+  language: true
+  path: true
+  timezone: true
   user_picture: true

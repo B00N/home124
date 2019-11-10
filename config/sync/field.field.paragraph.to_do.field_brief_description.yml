@@ -1,0 +1,19 @@
+uuid: b49c84ed-199d-4b59-a5c6-b193af0434e3
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_brief_description
+    - paragraphs.paragraphs_type.to_do
+id: paragraph.to_do.field_brief_description
+field_name: field_brief_description
+entity_type: paragraph
+bundle: to_do
+label: Kurzbeschreibung
+description: 'Kurze Beschreibung des ToDos damit man es in Listen anzeigen kann'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

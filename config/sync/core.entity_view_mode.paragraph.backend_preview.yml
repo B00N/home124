@@ -1,0 +1,10 @@
+uuid: 12d12a5e-2f53-4349-90b9-8756dd803e3b
+langcode: de
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.backend_preview
+label: 'Backend Preview'
+targetEntityType: paragraph
+cache: true

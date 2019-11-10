@@ -1,0 +1,8 @@
+uuid: 94447040-e2a1-4d15-8b20-3186c3338105
+langcode: de
+status: true
+dependencies: {  }
+name: Kategorie
+vid: file_category
+description: ''
+weight: 0

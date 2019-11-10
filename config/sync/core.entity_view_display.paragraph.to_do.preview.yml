@@ -1,8 +1,9 @@
-uuid: 2c0ec1d0-995a-4040-bb49-45255e7358c5
+uuid: caf6a39c-f0f2-41e3-948e-7fdaf4d37eca
 langcode: de
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.to_do.field_brief_description
     - field.field.paragraph.to_do.field_done
     - field.field.paragraph.to_do.field_text
@@ -36,10 +37,10 @@ third_party_settings:
         attributes: ''
       label: Todo
       region: content
-id: paragraph.to_do.default
+id: paragraph.to_do.preview
 targetEntityType: paragraph
 bundle: to_do
-mode: default
+mode: preview
 content:
   field_brief_description:
     weight: 2

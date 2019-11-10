@@ -1,24 +1,21 @@
-uuid: 2c0ec1d0-995a-4040-bb49-45255e7358c5
+uuid: 89e8beca-ec60-4b28-a194-cf417f7657a7
 langcode: de
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.backend_preview
     - field.field.paragraph.to_do.field_brief_description
     - field.field.paragraph.to_do.field_done
     - field.field.paragraph.to_do.field_text
     - paragraphs.paragraphs_type.to_do
   module:
-    - empty_fields
     - field_group
-    - text
 third_party_settings:
   field_group:
     group_todo:
-      children:
-        - field_done
-        - field_brief_description
+      children: {  }
       parent_name: ''
-      weight: 0
+      weight: 3
       format_type: html_element
       format_settings:
         id: ''
@@ -35,37 +32,20 @@ third_party_settings:
         speed: fast
         attributes: ''
       label: Todo
-      region: content
-id: paragraph.to_do.default
+      region: hidden
+id: paragraph.to_do.backend_preview
 targetEntityType: paragraph
 bundle: to_do
-mode: default
+mode: backend_preview
 content:
   field_brief_description:
-    weight: 2
+    weight: 0
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  field_done:
-    weight: 1
-    label: hidden
-    settings:
-      format: custom
-      format_custom_true: '<img src="/themes/custom/h124/images/icons/check-box-checked.svg">'
-      format_custom_false: '<img src="/themes/custom/h124/images/icons/check-box.svg">'
-    third_party_settings:
-      empty_fields:
-        handler: ''
-    type: boolean
-    region: content
-  field_text:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-hidden: {  }
+hidden:
+  field_done: true
+  field_text: true

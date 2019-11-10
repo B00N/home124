@@ -1,0 +1,24 @@
+uuid: 2eace6e7-7878-488c-9e11-e3112c0cedca
+langcode: de
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - h124
+id: views_block__comments_recent_block_1
+theme: h124
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility: {  }

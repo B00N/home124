@@ -1,0 +1,29 @@
+uuid: 3c19defd-e169-4ea7-bd81-6e2c2e7589ff
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_category
+    - media.type.document
+    - taxonomy.vocabulary.file_category
+id: media.document.field_category
+field_name: field_category
+entity_type: media
+bundle: document
+label: Kategorie
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      file_category: file_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

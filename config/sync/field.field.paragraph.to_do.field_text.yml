@@ -18,9 +18,9 @@ id: paragraph.to_do.field_text
 field_name: field_text
 entity_type: paragraph
 bundle: to_do
-label: 'Nächste Schritte / Aufgaben'
-description: ''
-required: true
+label: Detailbeschreibung
+description: 'Gibt es mehr Information zun Todo?'
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

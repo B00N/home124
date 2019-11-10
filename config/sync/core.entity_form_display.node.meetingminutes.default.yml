@@ -114,7 +114,7 @@ content:
     settings:
       title: Seitenabschnitt
       title_plural: Seitenabschnitte
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
       default_paragraph_type: text
